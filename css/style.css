@@ -14,6 +14,11 @@ body{
     background-color: lightgray;
 }
 
+.container{
+    max-width: 560px;
+    margin: 0 auto;
+}
+
 .site-name{
     background-color: white;
     text-align: center;
@@ -24,4 +29,14 @@ h1{
     font-family: 'Nerko One', cursive;
     color: orange;
     font-size: 42px;
+}
+
+iframe{
+    max-width: 100%;
+}
+
+/* prima sezione */
+
+.title-brackets{
+    display: none;
 }
