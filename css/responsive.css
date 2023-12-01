@@ -27,4 +27,8 @@
         max-width: 765px;
         margin: 0 auto;
     }
+
+    [class~="col"]{
+        width: 100%;
+    }
 }
