@@ -18,6 +18,7 @@ body{
     max-width: 560px;
     margin: 0 auto;
     margin-top: 20px;
+    padding: 10px;
 }
 
 .container *{
@@ -124,16 +125,23 @@ iframe{
     color: black;
 }
 
-.recipe-info a{
-    display: inline-block;
-    background-color: white;
-    border-radius: 50%;
-    height: 20px;
-    width: 20px;
-}
+/* social */
 
 .socials{
     display: none;
+}
+
+.social-links ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+[class^="fa-brands"]{
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30%;
 }
 
 /* seconda sezione */
