@@ -35,8 +35,17 @@ iframe{
     max-width: 100%;
 }
 
+#banner{
+    max-width: 100%;
+    display: none;
+}
+
 /* prima sezione */
 
 .title-brackets{
+    display: none;
+}
+
+.socials{
     display: none;
 }
