@@ -1,6 +1,7 @@
 @media screen and (min-width: 768px){
     h1{
         text-align: left;
+        margin-left: 30px;
     }
 
     .title-brackets{
@@ -10,5 +11,20 @@
     .u-row{
         display: flex;
         flex-wrap: wrap;
+    }
+
+    #banner{
+        display: inline-block;
+    }
+
+    #t-picture{
+        float: left;
+        margin-left: -55px;
+        margin-right: 10px;
+    }
+
+    main .container{
+        max-width: 765px;
+        margin: 0 auto;
     }
 }
