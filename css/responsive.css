@@ -42,19 +42,20 @@
     
     .recipe-info li{
         padding: 0 45px;
-        
     }
 
     .img-info{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
     }
 
     .img-card{
         width: 100%;
+        padding: 0 10px;
     }
 
+    
     i[class^="fa-brands fa-"]{
         margin-right: 10px;
         background-color: white;
