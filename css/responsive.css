@@ -23,12 +23,35 @@
         margin-right: 10px;
     }
 
-    main .container{
+    main.container{
         max-width: 765px;
         margin: 0 auto;
+        padding: 30px;
     }
 
     [class~="col"]{
         width: 100%;
+    }
+
+    .recipe-info ul{
+        margin: 0 -45px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    .recipe-info li{
+        padding: 0 45px;
+        
+    }
+
+    .img-info{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .more-info{
+        text-align: right;
     }
 }
