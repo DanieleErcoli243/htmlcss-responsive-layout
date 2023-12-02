@@ -65,10 +65,11 @@ footer{
 /* utili */
 
 .btn{
-    background-color: orange;
+    background-color: rgb(226, 136, 2);
     display: inline-block;
     border-radius: 20px;
     padding: 10px 15px;
+    color: white;
 }
 
 .flex{
@@ -100,6 +101,11 @@ ul{
 
 iframe{
     max-width: 100%;
+    margin-bottom: 0;
+}
+
+.img-card{
+    margin-bottom: -15px;
 }
 
 .info-card{
@@ -140,6 +146,8 @@ iframe{
 .col .black{
     color: black;
 }
+
+
 
 /* social */
 
