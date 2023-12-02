@@ -103,6 +103,7 @@ iframe{
     max-width: 100%;
     margin-bottom: 0;
     background-position: center;
+    
 }
 
 .img-card{
@@ -195,6 +196,11 @@ i[class^="fa-brands fa-"]{
 }
 
 /* seconda sezione */
+
+.orange-line{
+    width: 70px;
+    border-top: 1px solid rgb(224, 146, 3);
+}
 
 #t-picture{
     max-width: 100%;
