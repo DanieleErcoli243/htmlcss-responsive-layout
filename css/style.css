@@ -72,6 +72,7 @@ h4{
 
 .col{
     padding: 0 5px;
+    margin-bottom: 20px;
 }
 
 ul{
@@ -88,9 +89,7 @@ ul{
     display: inline;
 }
 
-.fa-star{
-    color: orange;
-}
+
 
 iframe{
     max-width: 100%;
@@ -99,17 +98,27 @@ iframe{
 .info-card{
     background-color: white;
     padding: 20px;
+    box-shadow: 0 4px 3px rgb(180, 176, 176);
 }
 
 .eaters-info{
     background-color: lightgray;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 20px;
 }
 
 .kcal{
     background-color: purple;
     padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.col.veg{
+    display: flex;
+    align-items: baseline;
+    margin-top: 15px;
+    margin-bottom: 0;
 }
 
 .more-info{
@@ -133,15 +142,40 @@ iframe{
 
 .social-links ul{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
 }
 
-[class^="fa-brands"]{
+i[class^="fa-brands fa-"]{
     margin-right: 10px;
     background-color: white;
-    border-radius: 50%;
-    height: 30px;
-    width: 30%;
+    border-radius: 45%;
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0 6px 5px rgb(180, 176, 176);
+}
+
+.fa-facebook{
+    color: blue;
+}
+
+.fa-twitter{
+    color: dodgerblue;
+}
+
+.fa-instagram{
+    color: rgb(182, 80, 97);
+}
+
+.fa-pinterest{
+    color: red;
+}
+
+.fa-youtube{
+    color: rgb(209, 4, 4);
 }
 
 /* seconda sezione */
@@ -154,4 +188,10 @@ iframe{
 
 .t-story{
     text-align: left;
+    line-height: 2;
+    color: rgb(85, 83, 83);
+}
+
+.t-story strong{
+    color: black;
 }
