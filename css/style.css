@@ -47,11 +47,18 @@ h4{
     color: rgb(177, 175, 175);
 }
 
-
+h5{
+    text-align: center;
+}
 
 #banner{
     max-width: 100%;
     display: none;
+}
+
+footer{
+    background-color: rgb(149 112 185);
+    padding: 30px 50px;
 }
 
 
@@ -108,7 +115,7 @@ iframe{
 }
 
 .kcal{
-    background-color: purple;
+    background-color: rgb(149 112 185);
     padding: 5px 10px;
     border-radius: 5px;
     color: white;
@@ -194,4 +201,33 @@ i[class^="fa-brands fa-"]{
 
 .t-story strong{
     color: black;
+}
+
+/* footer */
+
+
+.address-col,
+.terms-col{
+    color: white;
+    line-height: 2;
+}
+
+address{
+    font-style: normal;
+    color: rgb(219, 219, 219);
+}
+
+.terms-col li{
+    padding: 0 5px;
+    margin-right: 15px;
+}
+
+.terms-col li a{
+    color: rgb(219, 219, 219);
+}
+
+.terms-col ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
