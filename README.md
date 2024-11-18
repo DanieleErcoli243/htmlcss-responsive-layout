@@ -1,6 +1,6 @@
 Giallo Booleano
 This is a page from an Italian site about recipes. This is our second approach to responsive layout and media queries.
-We had to work mobile-first and then expanding to the other breakpoints.
+The first step was to analyze the screenshots to see the differences between the elements according to their breakpoints, then to work mobile-first before expanding.
 I had some troubles with it, because I've always found easier hiding elements working desktop-first than rewriting the style to show those elements while expanding the page.
 But I keep forcing myself to work on responsive layouts mobile first. 
 
